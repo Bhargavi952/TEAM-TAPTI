@@ -75,20 +75,20 @@ button{
 
 
 
-
+/* Mission part starts here */
 .grid{
     display: grid; 
     width: 85%; 
     margin: auto;
      gap: 15px;
-    /* border: 2px solid red; */
+     border: 1px solid black;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 700px;
-    /* grid-template: "a  b" */
+    grid-template : " a b";
 
 }
 .grid > div{
-    /* border: 2px solid red;  */
+    
     background-color: white;
     color: black;
 }
@@ -110,7 +110,7 @@ button{
     margin: -1px;
 }
 .font_p2{
-    /* line-height: 0.9cm; */
+    
     font-size: 18px;
     line-height: 0.7cm;
 }
@@ -124,14 +124,14 @@ button{
     width: 88%;
     height: 600px;
     margin: auto;
-    /* border: 2px solid red; */
+ 
 }
 .grid1{
     display: grid;  
      gap: 5px;
      width: 85%; 
      margin: auto;
-    /* border: 2px solid red; */
+    
     grid-template-columns: 1.2fr 1fr;
     grid-template-rows: 700px 700px 700px 700px;
     grid-template: "d e"
@@ -140,7 +140,6 @@ button{
                    "j k";
 }
 .grid1 > div{
-    /* border: 2px solid red;  */
     background-color: white;
     color: black;
 }
@@ -204,14 +203,12 @@ button{
     display: grid;  
      gap: 15px;
      width: 1000px;
-    /* border: 2px solid red; */
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 550px;
     margin: auto;
     grid-template: "m n o";
 }
 .grid2> div{
-    /* border: 2px solid red;  */
     background-color:white;
     color: black;
     margin:10px ;
@@ -245,6 +242,7 @@ button{
     margin-bottom: -10px;
 }
 
+/* Mission part end */
 
 /* bottom part CSS starts here */
 .common{
