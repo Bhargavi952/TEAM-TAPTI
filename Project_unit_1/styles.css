@@ -1,74 +1,80 @@
-/* top navigation CSS starts here */
-.nav{
-    position:sticky;
-    top: 0px;
-    background-color: rgb(255, 255, 255);
-    height: 80px;
-    box-shadow:0 1px 20px 1px gray;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.navigation{
-    width: 1300px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-}
-.left{
-    background-color: rgb(255, 255, 255);
-    margin-top: 8px;
-    width: 780px;
-}
-.right{
-    margin-top: 8px;
-    background-color: rgb(255, 255, 255);
-    width: 360px;
-    height: 60px;
-}
-.navigation>.left>ul{
-    list-style-type:none;
-}
-.navigation>.left>ul>li:nth-child(1){
-    width: 170px;
-    height:60px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-.navigation>.left>ul>li{
-    float: left;
-    margin: 15px;
-}
-.navigation>.left>ul>li>a{
-    color: black;
-    text-decoration: none;
-}
-.navigation>.left>ul>li>a:hover{
-    text-underline-position: below;
-    color: rgb(5, 150, 5);
-    text-underline-position: below;
-}
-button{
-    margin-top: 6px;
-    width: 100px;
-    height:40px;
-    border-radius: 25px;
-    margin-right:20px;
-    float: left;
-    font-size: 18px;
-    border: 2px solid black;
-}
-.sign:hover{
-    color:#35B39A;
-    border: 2px solid #35B39A ;
-    cursor: pointer;
-}
-.right>div>#search{
-    margin-top: 10px;
-    width: 32px;
-    float: right;
-    margin-right: 10px;
-}
+    /* top navigation CSS starts here */
+    .nav{
+      position:sticky;
+      top: 0px;
+      background-color: rgb(255, 255, 255);
+      height: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .navigation{
+      width: 1300px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-between;
+  }
+  .left{
+      background-color: rgb(255, 255, 255);
+      margin-top: 8px;
+      width: 780px;
+  }
+  .right{
+      margin-top: 8px;
+      background-color: rgb(255, 255, 255);
+      width: 360px;
+      height: 60px;
+  }
+  .navigation>.left>ul{
+      list-style-type:none;
+  }
+  .navigation>.left>ul>li:nth-child(1){
+      width: 170px;
+      height:60px;
+      margin-left: 0px;
+      margin-top: 0px;
+  }
+  .navigation>.left>ul>li{
+      float: left;
+      margin: 15px;
+  }
+  .navigation>.left>ul>li>a{
+      color: black;
+      text-decoration: none;
+  }
+  .navigation>.left>ul>li>a:hover{
+      text-underline-position: below;
+      color: rgb(5, 150, 5);
+      text-underline-position: below;
+  }
+  button{
+      margin-top: 6px;
+      width: 100px;
+      height:40px;
+      border-radius: 25px;
+      margin-right:20px;
+      float: left;
+      font-size: 18px;
+      border: 2px solid black;
+  }
+  .demo{
+      background-color: rgb(0, 110, 255);
+      width: 200px;
+      border: solid rgb(0,110,255);
+      height: 40px;
+      color:white;
+  }
+  .sign:hover{
+      color:#35B39A;
+      border: 2px solid #35B39A ;
+      cursor: pointer;
+  }
+  .right>div>#search{
+      margin-top: 10px;
+      width: 32px;
+      float: right;
+      margin-right: 10px;
+  }
 /* top navigation CSS ends here */
 
 #first-main-div {
@@ -77,6 +83,7 @@ button{
   grid-template: "textbox imagebox";
   grid-template-columns: 50% 50%;
   margin: auto;
+  width: 1500px;
 }
 
 #text-box {
@@ -90,6 +97,7 @@ button{
 #image-box {
   grid-area: imagebox;
   border: 1px solid white;
+  padding-right: 10%;
 }
 
 #text-box > p {
@@ -134,6 +142,8 @@ button{
   padding-left: 10%;
   padding-top: 6%;
   padding-bottom: 6%;
+  width: 1500px;
+  margin: auto;
 }
 
 #second-main-div > .heading {
@@ -199,6 +209,8 @@ button{
   border: 1px solid white;
   padding-top: 6%;
   padding-bottom: 6%;
+  width: 1500px;
+  margin: auto;
 }
 
 #third-main-div > .heading {
@@ -264,6 +276,8 @@ button{
   padding-top: 0%;
   padding-bottom: 6%;
   background-color: #f5f5f5;
+  width: 1500px;
+  margin: auto;
 }
 
 #fourth-main-div > .fourth-text {
@@ -312,6 +326,8 @@ button{
   padding-top: 0%;
   padding-bottom: 5%;
   background-color: #a4ddce;
+  width: 1500px;
+  margin: auto;
 }
 
 #fifth-main-div > .fifth-image {
@@ -359,6 +375,8 @@ button{
   padding-top: 0%;
   padding-bottom: 5%;
   background-color: #15372c;
+  width: 1500px;
+  margin: auto;
 }
 
 #sixth-main-div > .sixth-text {
@@ -405,6 +423,8 @@ button{
   padding-top: 0%;
   padding-bottom: 5%;
   background-color: #008561;
+  width: 1500px;
+  margin: auto;
 }
 
 #seventh-main-div > .seventh-image {
@@ -453,6 +473,8 @@ button{
   padding-top: 0%;
   padding-bottom: 1%;
   background-color: #a4ddce;
+  width: 1500px;
+  margin: auto;
 }
 
 #eighth-main-div > .eighth-text {
@@ -502,6 +524,8 @@ button{
   background-color: white;
   padding-top: 8%;
   padding-bottom: 8%;
+  width: 1500px;
+  margin: auto;
 }
 
 #ninth-main-div > .ninth-left-box {
@@ -556,6 +580,8 @@ button{
   border: 1px solid #f5f5f5;
   padding-top: 5%;
   padding-bottom: 6%;
+  width: 1500px;
+  margin: auto;
 }
 
 #tenth-main-div > .heading {
@@ -708,6 +734,8 @@ button{
   grid-template-columns: 50% 50%;
   border: 1px solid FFFFFF;
   background-color: #ffffff;
+  width: 1500px;
+  margin: auto;
 }
 
 #eleventh-main-div > .eleventh-text-box {
@@ -757,6 +785,8 @@ button{
   grid-template-columns: 50% 50%;
   border: 1px solid white;
   background-color: white;
+  width: 1500px;
+  margin: auto;
 }
 
 #twelth-main-div > .twelth-image-box {
@@ -865,6 +895,8 @@ button{
   grid-template: "thirteentext thirteenimage";
   grid-template-columns: 50% 50%;
   background-color: #113228;
+  width: 1500px;
+  margin: auto;
 }
 
 #thirteen-main-div > .thirteen-text {
@@ -1091,4 +1123,228 @@ button{
 
 .bg-color {
     background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #first-main-div {
+    display: grid;
+    border: 1px solid white;
+    grid-template: "textbox" 
+    "imagebox";
+    /* grid-template-columns: 50% 50%; */
+    margin: auto;
+    width: 768px;
+  }
+
+  #second-main-div {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    padding-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 768px;
+    margin: auto;
+  }
+
+  #second-main-div > .tables {
+    display: grid;
+    border: 1px solid #f5f5f5;
+    width: 83%;
+    grid-template:
+      "box1" 
+      "box2" 
+      "box3"
+      "box4"
+      "box5" "box6";
+    margin-top: 8vh;
+  }
+
+  #second-main-div > .tables > .box-1 {
+    grid-area: box1;
+    border-right: 0px solid #b1dbd0;
+    border-bottom: 0px solid #b1dbd0;
+  }
+  
+  #second-main-div > .tables > .box-2 {
+    grid-area: box2;
+    border-right: 0px solid #b1dbd0;
+    border-bottom: 0px solid #b1dbd0;
+  }
+  
+  #second-main-div > .tables > .box-3 {
+    grid-area: box3;
+    border-bottom: 0px solid #b1dbd0;
+  }
+  
+  #second-main-div > .tables > .box-4 {
+    grid-area: box4;
+    border-right: 0px solid #b1dbd0;
+  }
+  
+  #second-main-div > .tables > .box-5 {
+    grid-area: box5;
+    border-right: 0px solid #b1dbd0;
+  }
+  
+  #second-main-div > .tables > .box-6 {
+    grid-area: box6;
+  }
+
+  #third-main-div {
+    border: 1px solid white;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 768px;
+    margin: auto;
+  }
+
+  #third-main-div > #image-text {
+    display: grid;
+    border: 1px solid white;
+    grid-template: "image" 
+    "text";
+    /* grid-template-columns: 55% 45%; */
+    margin: auto;
+    margin-top: 16vh;
+    margin-right: 8%;
+  }
+
+  #fourth-main-div {
+    display: grid;
+    grid-template: "fourthimage"  
+    "fourthtext";
+    /* grid-template-columns: 45% 55%; */
+    border: 1px solid #f5f5f5;
+    padding-top: 0%;
+    padding-bottom: 6%;
+    background-color: #f5f5f5;
+    width: 768px;
+    margin: auto;
+  }
+
+  #fifth-main-div {
+    display: grid;
+    grid-template: "fifthimage" 
+    "fifthtext";
+    /* grid-template-columns: 50% 50%; */
+    border: 1px solid #a4ddce;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    background-color: #a4ddce;
+    width: 768px;
+    margin: auto;
+  }
+
+  #sixth-main-div {
+    display: grid;
+    grid-template:"sixthimage"
+    "sixthtext" ;
+    /* grid-template-columns: 50% 50%; */
+    border: 1px solid #15372c;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    background-color: #15372c;
+    width: 768px;
+    margin: auto;
+  }
+
+  #seventh-main-div {
+    display: grid;
+    grid-template: "seventhimage" 
+    "seventhtext";
+    /* grid-template-columns: 50% 50%; */
+    border: 1px solid #008561;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    background-color: #008561;
+    width: 768px;
+    margin: auto;
+  }
+
+  #eighth-main-div {
+    display: grid;
+    grid-template: "eighthimage"
+    "eighthtext";
+    /* grid-template-columns: 50% 50%; */
+    border: 1px solid #a4ddce;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    background-color: #a4ddce;
+    width: 768px;
+    margin: auto;
+  }
+
+  #ninth-main-div {
+    display: grid;
+    grid-template: "leftbox" 
+    "rightbox";
+    /* grid-template-columns: 50% 50%; */
+    border: 1px solid white;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    background-color: white;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 768px;
+    margin: auto;
+  }
+
+  #tenth-main-div {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    width: 768px;
+    margin: auto;
+  }
+
+  #tenth-main-div > #tenth-layout {
+    display: grid;
+    border: 1px solid #f5f5f5;
+    grid-template: "column1" 
+    "column2" 
+    "column3";
+    /* grid-template-columns: 33.33% 33.33% 33.33%; */
+    padding-top: 2.5%;
+  }
+
+  #tenth-main-div > #tenth-layout > .column-1 {
+    grid-area: column1;
+    border: 1px solid #f5f5f5;
+    padding-left: 18%;
+    padding-right: 20%;
+  }
+  
+  #eleventh-main-div {
+    display: grid;
+    grid-template: "eleventhleft" 
+    "eleventhright";
+    /* grid-template-columns: 50% 50%; */
+    border: 1px solid FFFFFF;
+    background-color: #ffffff;
+    width: 768px;
+    margin: auto;
+  }
+
+  #twelth-main-div {
+    display: grid;
+    grid-template: "twelthleft" 
+    "twelthright";
+    /* grid-template-columns: 50% 50%; */
+    border: 1px solid white;
+    background-color: white;
+    width: 768px;
+    margin: auto;
+  }
+
+  #thirteen-main-div {
+    display: grid;
+    border: 1px solid #113228;
+    grid-template: "thirteentext" 
+    "thirteenimage";
+    /* grid-template-columns: 50% 50%; */
+    background-color: #113228;
+    width: 768px;
+    margin: auto;
+  }
 }
