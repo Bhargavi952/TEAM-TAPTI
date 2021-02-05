@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* top navigation CSS starts here */
+.nav{
+    position:sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    box-shadow:0 1px 20px 1px gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    width: 1300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+    width: 780px;
+}
+.right{
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 360px;
+    height: 60px;
+}
+.navigation>.left>ul{
+    list-style-type:none;
+}
+.navigation>.left>ul>li:nth-child(1){
+    width: 170px;
+    height:60px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.navigation>.left>ul>li{
+    float: left;
+    margin: 15px;
+}
+.navigation>.left>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.navigation>.left>ul>li>a:hover{
+    text-underline-position: below;
+    color: rgb(5, 150, 5);
+    text-underline-position: below;
+}
+
+button{
+    margin-top: 6px;
+    width: 100px;
+    height:40px;
+    border-radius: 25px;
+    margin-right:20px;
+    float: left;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.sign:hover{
+    color:#35B39A;
+    border: 2px solid #35B39A ;
+    cursor: pointer;
+}
+.right>div>#search{
+    margin-top: 10px;
+    width: 32px;
+    float: right;
+    margin-right: 10px;
+}
+/* top navigation CSS ends here */
+
+.demo{
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex>div{
+    height: 780px;
+    border: 2px solid red;
+    flex-basis: 645px;
+    background-color:teal;
+}
+#shri>div{
+    height: 630px;
+    border: 2px solid red;
+    flex-basis: 645px;
+    background-color:teal;
+}
+#ohm>div~div{
+    background:url('1.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#shri>div:nth-child(1){
+    background:url('2.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#tri>div{
+    height: 540px;
+    border: 2px solid red;
+    flex-basis: 645px;
+    background-color:teal;
+}
+#tri>div:nth-child(2){
+    background:url('3.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#quad>div{
+    height: 540px;
+    border: 2px solid red;
+    flex-basis: 645px;
+    background-color:teal;
+}
+#quad>div:nth-child(1){
+    background:url('4.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#pent>div{
+    height: 600px;
+    border: 2px solid red;
+    flex-basis: 645px;
+    background-color:teal;
+}
+#pent>div:nth-child(2){
+    background:url('5.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.new>div{
+    height: 650px;
+    border: 2px solid red;
+    flex-basis: 397px;
+    background-color:rgb(217, 238, 238);
+}
+.new>div:nth-child(2){
+    background:url(tr1.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin:0px 50px 0px 50px;
+}
+.new>div:nth-child(3){
+    background:url(tr2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+/* bottom part CSS starts here */
+.common{
+    width: 100%;
+    display:flex;
+    background-color:#113228;
+    height: 470px;
+    justify-content:center;
+    
+}
+.wrapper{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.wrapper>div{
+    width: 450px;
+    height: 100%;
+}
+.wrapper>div:nth-child(2){
+    background:url('leaf.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.bottom{
+    width: 100%;
+    display:flex;
+    background-color:#15372C;
+    height: 730px;
+    justify-content:center;
+}
+.wafer{
+    width: 1300px;
+    margin-top:120px;
+    height: 80%;
+    display: flex;
+    justify-content:space-between;
+    display: flex;
+}
+.bottom>.wafer>.rt{
+    width: 450px;
+}
+.bottom>.wafer>.le{
+    width: 900px;
+    display: flex;
+    justify-content:space-between;
+}
+.bottom>.wafer>.le>div{
+    width: 300px;
+}
+.le>.le1>div>ul{
+    color:#35B39A;
+    list-style-type:none;
+}
+.le>.le1>div>ul>li>a{
+    text-decoration:none;
+    color:white;
+}
+.le>.le1>div>ul>li{
+    margin-top: 10px;
+}
+.le>.le1>div>ul>li:nth-child(1){
+    margin-top:30px;
+}
+.segments{
+    margin-top:50px;
+}
+.solutions{
+    margin-top:50px;
+}
+.le>.le2>div>ul{
+    color:#35B39A;
+    list-style-type:none;
+}
+.le>.le2>div>ul>li>a{
+    text-decoration:none;
+    color:white;
+}
+.le>.le2>div>ul>li{
+    margin-top: 10px;
+}
+.Platform{
+    margin-top:50px;
+}
+.le>.le3>div>ul{
+    color:#35B39A;
+    list-style-type:none;
+}
+.le>.le3>div>ul>li>a{
+    text-decoration:none;
+    color:white;
+}
+.le>.le3>div>ul>li{
+    margin-top: 10px;
+}
+.Community{
+    margin-top:50px;
+}
+.rt{
+    color: white;
+}
+.rt>h3{
+    margin-top:20px;
+}
+.rt>.mail{
+    margin-top: 40px;
+}
+.rt>input{
+    margin-top: 10px;
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+}
+.rt>div>button{
+   color: white;
+   border: 2px solid white;
+   border-radius: 30px;
+   width: 140px;
+   height: 45px;
+   background: none;
+   margin-top: 15px;
+}
+.rt>div>button:hover{
+    border:2px solid #35B39A;
+    color:#35B39A;
+    cursor: pointer;
+}
+.select{
+    margin-top: 160px;
+}
+#language{
+    width:240px;
+    height:50px;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.img{
+   width: 300px;
+   height: 50px;
+   margin-top: 80px;
+}.img>div{
+    width: 40px;
+    height: 100%;
+    float: left;
+}
+.img>div:nth-child(2){
+    background: url('lin.png');
+    background-repeat: no-repeat;
+}
+.img>div:nth-child(3){
+    background: url('tw.png');
+    background-repeat: no-repeat;
+}
+.img>div:nth-child(4){
+    background: url('yt.png');
+    background-repeat: no-repeat;
+}
+.btcnt{
+    width: 100%;
+    background-color:#15372C;
+    height: 230px;
+}
+.hmml{
+    display: flex;
+    width: 100%;
+    display:flex;
+    background-color:#15372C;
+    justify-content:center;
+    color: white;
+    padding-top: 70px;
+}
+.copyright{
+    width: 1260px;
+    display:flex;
+    background-color:#15372C;
+    justify-content:start;
+    color: white;
+}
+.copy{
+    display: flex;
+    width: 100%;
+    background-color:#15372C;
+    justify-content:center;
+}
+.c{
+    display: flex;
+    width: 1270px;
+    background-color:#15372C;
+    justify-content:space-between;
+}
+.loco{
+    color: white;
+}
+.loul>ul>li>a{
+    color: white;
+}
+.loul>ul>li{
+    float: left;
+    margin-right: 20px;
+}
+/* bottom css ends here */
