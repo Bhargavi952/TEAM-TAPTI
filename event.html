@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+    /* top navigation CSS starts here */
+.nav{
+    position:sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    box-shadow:0 1px 20px 1px gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    width: 1300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+    width: 780px;
+}
+.right{
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 360px;
+    height: 60px;
+}
+.navigation>.left>ul{
+    list-style-type:none;
+}
+.navigation>.left>ul>li:nth-child(1){
+    width: 170px;
+    height:60px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.navigation>.left>ul>li{
+    float: left;
+    margin: 15px;
+}
+.navigation>.left>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.navigation>.left>ul>li>a:hover{
+    text-underline-position: below;
+    color: rgb(5, 150, 5);
+    text-underline-position: below;
+}
+button{
+    margin-top: 6px;
+    width: 100px;
+    height:40px;
+    border-radius: 25px;
+    margin-right:20px;
+    float: left;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.sign:hover{
+    color:#35B39A;
+    border: 2px solid #35B39A ;
+    cursor: pointer;
+}
+.right>div>#search{
+    margin-top: 10px;
+    width: 32px;
+    float: right;
+    margin-right: 10px;
+}
+/* top navigation CSS ends here */
+    .event1{
+      display:flex;
+      justify-content: space-between;
+    }
+    #eve1{
+      width: 50%;
+      height: 50%;
+      padding-top: 20%;
+      padding-left: 10%;
+      color: rgb(17, 122, 91) ;
+    }
+    #bt1{
+      width: 30%;
+      height: 35px;
+      background-color: rgb(17, 122, 91);
+      color: whitesmoke;
+      border-radius: 20px;
+      border: solid;
+    }
+    #eve2{
+      width: 50%;
+      height: 50%;
+    }
+    .event2{
+      display:flex;
+      justify-content: space-between;
+    }
+    #eve3{
+      width: 50%;
+      height: 50%;
+    }
+    #eve4{
+      width: 50%;
+      height: 50%;
+      padding-top: 10%;
+      padding-right: 20%;
+      padding-left: 10%;
+      color: rgb(17, 122, 91) ;
+     }
+     #bt2{
+      width: 30%;
+      height: 35px;
+      background-color: rgb(17, 122, 91);
+      color: whitesmoke;
+      border-radius: 20px;
+      border: solid;
+    }
+    .event3{
+      display:flex;
+      justify-content: space-between;
+    }
+    #eve5{
+      width: 50%;
+      height: 50%;
+      padding-left: 10%;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #eve6{
+      width: 50%;
+      height: 50%;
+      padding-top:50px;
+      padding-left: 100px;
+
+    }
+    #f1{
+      font-family: monospace;
+    }
+    #bt3{
+      background-color: whitesmoke;
+      border: none;
+      color: rgb(17, 122, 91) ;
+    }
+    .event4{
+      display:flex;
+      justify-content: space-between;
+
+    }
+    #eve7{
+      width: 50%;
+      height: 50%;
+      padding-top: 10%;
+      padding-left: 10%;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #eve8{
+      width: 50%;
+      height: 50%;
+      padding-left: 10%;
+      padding-top: 100px;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #bt4{
+      background-color: whitesmoke;
+      border: none;
+      color: rgb(17, 122, 91) ;
+
+    }
+    .event5{
+      display: flex;
+      justify-content: space-between;
+
+    }
+    #eve9{
+      width: 50%;
+      height: 50%;
+      padding-top: 10%;
+      padding-left: 10%;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #eve10{
+      width: 50%;
+      height: 50%;
+      padding-left: 10%;
+      padding-top: 100px;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #bt5{
+      background-color: whitesmoke;
+      border: none;
+      color: rgb(17, 122, 91) ;
+
+    }
+    .event6{
+      display: flex;
+      justify-content: space-between;
+    }
+    #eve11{
+      width: 50%;
+      height: 50%;
+      padding-top: 10%;
+      padding-left: 10%;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #eve12{
+      width: 50%;
+      height: 50%;
+      padding-left: 10%;
+      padding-top: 100px;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #bt6{
+      background-color: whitesmoke;
+      border: none;
+      color: rgb(17, 122, 91) ;
+
+    }
+    .event7{
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+    #eve13{
+      width: 50%;
+      height: 50%;
+      padding-top: 10%;
+      padding-left: 10%;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #eve14{
+      width: 50%;
+      height: 50%;
+      padding-left: 10%;
+      padding-top: 100px;
+      color: rgb(17, 122, 91) ;
+
+    }
+    #bt7{
+      background-color: whitesmoke;
+      border: none;
+      color: rgb(17, 122, 91) ;
+
+    }
+    .event8{
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(23, 53, 34);
+    }
+    #eve15{
+      width: 30%;
+      height: 50%;
+      text-align: center;
+      color: white;
+      padding-left: 100px;
+      padding-top: 100px;
+    }
+    #eve16{
+      width:50%;
+      height: 50%;
+      padding-top: 50px;
+    }
+    #bt9{
+      width: 30%;
+      height: 35px;
+      background-color: rgb(17, 122, 91);
+      color: whitesmoke;
+      border-radius: 20px;
+      border: solid rgb(17,122,91);
+
+    }
+    /* bottom part CSS starts here */
+.common{
+    width: 100%;
+    display:flex;
+    background-color:#113228;
+    height: 470px;
+    justify-content:center;
+}
+.wrapper{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.wrapper>div{
+    width: 450px;
+    height: 100%;
+}
+.wrapper>div:nth-child(2){
+    background:url('leaf.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.bottom{
+    width: 100%;
+    display:flex;
+    background-color:#15372C;
+    height: 730px;
+    justify-content:center;
+}
+.wafer{
+    width: 1300px;
+    margin-top:120px;
+    height: 80%;
+    display: flex;
+    justify-content:space-between;
+    display: flex;
+}
+.bottom>.wafer>.rt{
+    width: 450px;
+}
+.bottom>.wafer>.le{
+    width: 900px;
+    display: flex;
+    justify-content:space-between;
+}
+.bottom>.wafer>.le>div{
+    width: 300px;
+}
+.le>.le1>div>ul{
+    color:#35B39A;
+    list-style-type:none;
+}
+.le>.le1>div>ul>li>a{
+    text-decoration:none;
+    color:white;
+}
+.le>.le1>div>ul>li{
+    margin-top: 10px;
+}
+.le>.le1>div>ul>li:nth-child(1){
+    margin-top:30px;
+}
+.segments{
+    margin-top:50px;
+}
+.solutions{
+    margin-top:50px;
+}
+.le>.le2>div>ul{
+    color:#35B39A;
+    list-style-type:none;
+}
+.le>.le2>div>ul>li>a{
+    text-decoration:none;
+    color:white;
+}
+.le>.le2>div>ul>li{
+    margin-top: 10px;
+}
+.Platform{
+    margin-top:50px;
+}
+.le>.le3>div>ul{
+    color:#35B39A;
+    list-style-type:none;
+}
+.le>.le3>div>ul>li>a{
+    text-decoration:none;
+    color:white;
+}
+.le>.le3>div>ul>li{
+    margin-top: 10px;
+}
+.Community{
+    margin-top:50px;
+}
+.rt{
+    color: white;
+}
+.rt>h3{
+    margin-top:20px;
+}
+.rt>.mail{
+    margin-top: 40px;
+}
+.rt>input{
+    margin-top: 10px;
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+}
+.rt>div>button{
+   color: white;
+   border: 2px solid white;
+   border-radius: 30px;
+   width: 140px;
+   height: 45px;
+   background: none;
+   margin-top: 15px;
+}
+.rt>div>button:hover{
+    border:2px solid #35B39A;
+    color:#35B39A;
+    cursor: pointer;
+}
+.select{
+    margin-top: 160px;
+}
+#language{
+    width:240px;
+    height:50px;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.img{
+   width: 300px;
+   height: 50px;
+   margin-top: 80px;
+}.img>div{
+    width: 40px;
+    height: 100%;
+    float: left;
+}
+.img>div:nth-child(2){
+    background: url('lin.png');
+    background-repeat: no-repeat;
+}
+.img>div:nth-child(3){
+    background: url('tw.png');
+    background-repeat: no-repeat;
+}
+.img>div:nth-child(4){
+    background: url('yt.png');
+    background-repeat: no-repeat;
+}
+.btcnt{
+    width: 100%;
+    background-color:#15372C;
+    height: 230px;
+}
+.hmml{
+    display: flex;
+    width: 100%;
+    display:flex;
+    background-color:#15372C;
+    justify-content:center;
+    color: white;
+    padding-top: 70px;
+}
+.copyright{
+    width: 1260px;
+    display:flex;
+    background-color:#15372C;
+    justify-content:start;
+    color: white;
+}
+.copy{
+    display: flex;
+    width: 100%;
+    background-color:#15372C;
+    justify-content:center;
+}
+.c{
+    display: flex;
+    width: 1270px;
+    background-color:#15372C;
+    justify-content:space-between;
+}
+.loco{
+    color: white;
+}
+.loul>ul>li>a{
+    color: white;
+}
+.loul>ul>li{
+    float: left;
+    margin-right: 20px;
+}
+/* bottom css ends here */
+    </style>
+  </head>
+  <body>
+    <!-- top navigation HTML starts here -->
+    <div class="nav">
+      <div class="navigation">
+          <div class="left">
+              <ul>
+                  <li><a href="#"><img src="log.png"></li></a>
+                  <li><a href="#"><h2>Product and Solutions</h2></li></a>
+                  <li><a href="#"><h2>Resources</h2></li></a>
+                  <li><a href="#"><h2>About us</h2></li></a>
+                  <li><a href="#"><h2>Community</h2></li></a>
+              </ul>
+          </div>
+          <div class="right">
+              <div>
+                  <button class="sign">Sign in</button>
+                  <button class="demo">Request a demo</button>
+                  <div id="search"><img src="sr.png" alt=""></div> 
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- top navigation HTML ends here -->
+    <div class="event1">
+      <div id="eve1"><p>Events</p><h1>Let's get together</h1><p>We love connecting with our community at Open events and anywhere Greenhouse goes. Keep in touch to see upcoming events from Greenhouse and where you can find us at other conferences and industry happenings.</p><button id="bt1">See upcoming events</button></div>
+      <div id="eve2"><img src="event1.jpg"/></div>
+    </div>
+    <div class="event2">
+      <div id="eve3"><img src="event2.png"/></div>
+      <div id="eve4"><h1>Looking for webinar and session recordings?</h1><p>Greenhouse webinars and many of our Open events are available to watch any time.</p><button id="bt2">Take a look</button></div>
+    </div>
+    <div class="event3">
+      <div id="eve5"><h1>Upcoming events</h1><p id ="f1">February 25, 2021 – March 2, 2021</p><h1>Sustaining DE&I in 2021 and beyond</h1><p>Learn how to recognize and overcome hiring bias with proven strategies from DE&I experts.</p><button id="bt3">Register here</button></div>
+      <div id="eve6"><img src="event3.png"/></div>
+    </div>
+    <div class="event4">
+      <div id="eve7"><p>May 4,2021</p><h1>Greenhouse Open Forum 2021</h1><p>Save the date! Join talent practitioners, business leaders, and hiring managers for a fully digital, highly interactive conference.</p><button id="bt4">Learn more</button></div>
+      <div id="eve8"><img src="event4.png"/></div>
+    </div>
+    <div class="event5">
+      <div id="eve9"><h1>Past events</h1><p>Past event:January 14, 2021 – January 19, 2021</p><h2>How to make remote onboarding a success</h2><p>Learn about using remote onboarding to amplify your culture and set new hires up for success.</p><button id="bt5">Register here</button></div>
+      <div id="eve10"><img src="event5.png"/></div>
+    </div>
+    <div class="event6">
+      <div id="eve11"><p>Past event: December 8, 2020 | 8–9:30 am ET</p><h1>Climbing the Hiring Maturity curve: How to build the right tech stack</h1><p>Join our panel of experts to learn about tools that can solve problems and impact your hiring strategy. And get actionable advice about growing your tech stack from a group of experts.</p><button id="bt6">watch on demand</button></div>
+      <div id="eve12"><img src="event6.png"/></div>
+    </div>
+    <div class="event7">
+      <div id="eve13"><p>Past event: November 19, 2020 | 12–5:30 pm ET</p><h1>Gem Summit 2020</h1><p>Spend a day exploring the future of talent teams with thousands of top talent acquisition professionals. Connect, share, be inspired, learn from each other.</p><button id="bt7"></button></div>
+      <div id="eve14"><img src="event7.png"/></div>
+    </div>
+    <div class="event8">
+      <div id="eve15"><h1>Interested in speaking or sponsoring an event?</h1><button id="bt9">Get in touch</button></div>
+      <div id="eve16"><img src="event9.png"/></div>
+    </div>
+    <div class="bottom">
+      <div class="wafer">
+          <div class="le">
+              <div class="le1">
+                  <div>
+                      <ul><h3>Products</h3>
+                        <li><a href=""><h2>Recruiting</h2></a></li>
+                        <li><a href=""><h2>Onboarding</h2></a></li>
+                        <li><a href=""><h2>Pricing</h2></a></li>
+                      </ul>
+                  </div>
+                  <div class="segments">
+                      <ul><h3>Segments</h3>
+                          <li><a href=""><h2>Enterprise</h2></a></li>
+                          <li><a href=""><h2>Small to midsize</h2></a></li>
+                      </ul>
+                  </div>
+                  <div class="solutions">
+                      <ul><h3>Solutions</h3>
+                         <li><a href=""><h2>Integrations</h2></a></li>
+                         <li><a href=""><h2>Structured hiring</h2></a></li>
+                         <li><a href=""><h2>Candidate experience</h2></a></li>
+                         <li><a href=""><h2>Diversity, equity & inclusion</h2></a></li>
+                         <li><a href=""><h2>More Solutions</h2></a></li>
+                      </ul>
+                  </div>
+                  <div class="img">
+                      <div>
+                          <a href="https://www.facebook.com/greenhouse.io/" target="_blank">
+                            <img src="f.png" alt="fb.png">
+                          </a>
+                      </div>
+                      <div>
+                          <a href="https://www.linkedin.com/company/greenhouse-inc-/" target="_blank">
+                              <img src="lin.png" alt="link.png">
+                            </a>
+                      </div>
+                      <div>
+                          <a href="https://twitter.com/Greenhouse" target="_blank">
+                              <img src="tw.png" alt="twitter.png">
+                            </a>
+                      </div>
+                      <div>
+                          <a href="https://www.youtube.com/channel/UCwLlhrx5lFssgTwKCHEuC8g" target="_blank">
+                              <img src="yt.png" alt="twitter.png">
+                            </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="le2">
+                  <div class="resources">
+                      <ul><h3>Resources</h3>
+                        <li><a href=""><h2>Blog</h2></a></li>
+                        <li><a href=""><h2>Guidance</h2></a></li>
+                        <li><a href=""><h2>Customer stories</h2></a></li>
+                        <li><a href=""><h2>Support</h2></a></li>
+                        <li><a href=""><h2>Developer resources</h2></a></li>
+                      </ul>
+                  </div>
+                  <div class="Platform">
+                      <ul><h3>Platform</h3>
+                        <li><a href=""><h2>Ethical principles</h2></a></li>
+                        <li><a href=""><h2>Services</h2></a></li>
+                        <li><a href=""><h2>Mobile</h2></a></li>
+                        <li><a href=""><h2>APIs</h2></a></li>
+                        <li><a href=""><h2>Security</h2></a></li>
+                        <li><a href=""><h2>GDPR</h2></a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="le3">
+                  <div class="About">
+                      <ul><h3>About us</h3>
+                        <li><a href=""><h2>Mission</h2></a></li>
+                        <li><a href=""><h2>Belonging</h2></a></li>
+                        <li><a href=""><h2>Company</h2></a></li>
+                        <li><a href=""><h2>Careers</h2></a></li>
+                        <li><a href=""><h2>Press & awards</h2></a></li>
+                        <li><a href=""><h2>Contact</h2></a></li>
+                      </ul>
+                  </div>
+                  <div class="Community">
+                      <ul><h3>Community</h3>
+                        <li><a href=""><h2>Events</h2></a></li>
+                        <li><a href=""><h2>Open</h2></a></li>
+                        <li><a href=""><h2>Talent Makers</h2></a></li>
+                        <li><a href=""><h2>Newsletter</h2></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="rt">
+              <h2>Modern Recruiter Newsletter</h2>
+              <h3>Our bi-weekly newsletter full of inspiration, podcasts,trends and news.</h3>
+              <h3 class="mail">*Email address</h3>
+              <input type="text">
+              <div>
+                  <button><h5>Subscribe</h5></button>
+              </div>
+              <div class="select">
+                  <h3>Choose your language</h3>
+                  <select id="language">
+                      <option value="English">English</option>
+                      <option value="German">German</option>
+                    </select>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="btcnt">
+      <div class="hmml">
+          <div class="copyright">
+              <div><h5>©2021 Greenhouse Software, Inc.</h5></div>
+            </div>
+      </div>
+      <div class="copy">
+          <div class="c">
+              <div class="loco">
+                 <h5>"Hire for what's next" and "Greenhouse Talent Makers" are trademarks of Greenhouse Software.</h5>
+              </div>
+              <div class="loul">
+                   <ul>
+                       <li><a href=""><h5>Privacy policy</h5></a></li>
+                      <li><a href=""><h5>Terms of service</h5></a></li>
+                  </ul>
+              </div>
+         </div>
+      </div>
+  </div>
+  <!-- bottom HTML ends here -->
+  </body>
+</html>
