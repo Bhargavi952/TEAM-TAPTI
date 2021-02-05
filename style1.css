@@ -90,7 +90,7 @@ button{
      gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 700px;
-    /* grid-template : " a b"; */
+    grid-template : " a  b";
 
 }
 .grid > div{
@@ -489,3 +489,71 @@ button{
     margin-right: 20px;
 }
 /* bottom css ends here */
+
+
+   /* media */ 
+   #box1{
+    grid-area: a;
+ }
+#box2{
+    grid-area: b;
+} 
+#box4{
+    grid-area: d;
+}
+#box5{
+    grid-area: e;
+}
+#box6{
+    grid-area: f;
+}
+#box7{
+    grid-area: g;
+}
+#box8{
+    grid-area: h;
+}
+#box9{
+    grid-area: i;
+}
+#box10{
+    grid-area: j;
+ }
+#box11{
+    grid-area: k;
+}
+#box13{
+    grid-area: m;
+}
+#box14{
+    grid-area: n;
+}
+#box15{
+    grid-area: o;
+} 
+@media only screen and (max-width: 768px) {
+    #grid{
+        grid-template: "a"
+                       "b"
+        }
+    .video{
+        height: 300px;
+    }    
+    #grid1{
+        grid-template:"d"
+                     " e"
+                     "f"
+                     "g"
+                     "h"
+                     "i"
+                     "j"
+                     "k"
+
+    }
+
+    #grid2{
+        grid-template:"m n o";
+                    
+                       
+    }
+} 
