@@ -4,10 +4,9 @@
     top: 0px;
     background-color: rgb(255, 255, 255);
     height: 80px;
-    box-shadow:0 1px 20px 1px gray;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .navigation{
     width: 1300px;
@@ -19,6 +18,7 @@
     background-color: rgb(255, 255, 255);
     margin-top: 8px;
     width: 780px;
+    margin-top: -20px ;
 }
 .right{
     margin-top: 8px;
@@ -30,7 +30,7 @@
     list-style-type:none;
 }
 .navigation>.left>ul>li:nth-child(1){
-    width: 170px;
+    width: 50px;
     height:60px;
     margin-left: 0px;
     margin-top: 0px;
@@ -56,7 +56,14 @@ button{
     margin-right:20px;
     float: left;
     font-size: 18px;
-    border: 2px solid black;
+    
+}
+.demo{
+    background-color: rgb(0, 110, 255);
+    width: 200px;
+    border: solid rgb(0,110,255);
+    height: 40px;
+    color:white;
 }
 .sign:hover{
     color:#35B39A;
@@ -81,10 +88,9 @@ button{
     width: 85%; 
     margin: auto;
      gap: 15px;
-     border: 1px solid black;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 700px;
-    grid-template : " a b";
+    /* grid-template : " a b"; */
 
 }
 .grid > div{
@@ -241,6 +247,43 @@ button{
     margin-top: 40px;
     margin-bottom: -10px;
 }
+ .event8{
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+      background-color:#113228;
+      padding: 10%;
+    }
+    #eve15{
+      width: 50%;
+      height: 50%;
+      font-size: 30px;
+      text-align: left;
+      color: white;
+      padding-left: 40px;
+      padding-top: 100px;
+      
+    }
+    #eve16{
+      width:50%;
+      height: 50%;
+      padding-top: 50px;
+      padding-right: 30px;
+    }
+    #bt9{
+      width: 50%;
+      height: 35px;
+      background-color:#2E65BA;
+      border:solid #2E65BA;
+      color: whitesmoke;
+      border-radius: 20px;
+      padding-left: 60px
+​
+    }
+    #final_img{
+        width: 120%;
+        height:95% ;
+    }
 
 /* Mission part end */
 
