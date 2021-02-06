@@ -84,6 +84,7 @@
   grid-template-columns: 50% 50%;
   margin: auto;
   width: 1500px;
+  transition: all 0.5s ease;
 }
 
 #text-box {
@@ -144,6 +145,7 @@
   padding-bottom: 6%;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
 }
 
 #second-main-div > .heading {
@@ -211,6 +213,7 @@
   padding-bottom: 6%;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
 }
 
 #third-main-div > .heading {
@@ -272,28 +275,42 @@
   display: grid;
   grid-template: "fourthtext fourthimage";
   grid-template-columns: 45% 55%;
-  border: 1px solid #f5f5f5;
+  border: 1px solid white;
   padding-top: 0%;
   padding-bottom: 6%;
-  background-color: #f5f5f5;
+  background-color: white;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
+}
+
+#fourth-main-div:hover {
+  background-color: #f5f5f5;
 }
 
 #fourth-main-div > .fourth-text {
   grid-area: fourthtext;
-  border: 1px solid #f5f5f5;
+  /* border: 1px solid white; */
   padding-left: 22%;
   padding-right: 8%;
   padding-top: 27%;
 }
 
+/* #fourth-main-div > .fourth-text:hover {
+  border: 2px solid #f5f5f5;
+} */
+
 #fourth-main-div > .fourth-image {
   grid-area: fourthimage;
-  border: 1px solid #f5f5f5;
+  /* border: 1px solid white; */
   padding-right: 5%;
   padding-left: 10%;
 }
+
+/* #fourth-main-div > .fourth-image:hover {
+  border: 2px solid #f5f5f5;
+  
+} */
 
 .fourth-text > .heading {
   font-size: 40px;
@@ -322,23 +339,29 @@
   display: grid;
   grid-template: "fifthimage fifthtext";
   grid-template-columns: 50% 50%;
-  border: 1px solid #a4ddce;
+  border: 1px solid #f5f5f5;
   padding-top: 0%;
   padding-bottom: 5%;
-  background-color: #a4ddce;
+  background-color: #f5f5f5;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
+}
+
+#fifth-main-div:hover {
+  background-color: #A4DDCE;
+  border: 1px solid #A4DDCE;
 }
 
 #fifth-main-div > .fifth-image {
   grid-area: fifthimage;
-  border: 1px solid r #a4ddce;
+  /* border: 1px solid white; */
   padding-left: 6%;
 }
 
 #fifth-main-div > .fifth-text {
   grid-area: fifthtext;
-  border: 1px solid #a4ddce;
+  /* border: 1px solid white; */
   padding-top: 28%;
   padding-left: 15%;
   padding-right: 20%;
@@ -371,17 +394,23 @@
   display: grid;
   grid-template: "sixthtext sixthimage";
   grid-template-columns: 50% 50%;
-  border: 1px solid #15372c;
+  border: 1px solid #A4DDCE;
   padding-top: 0%;
   padding-bottom: 5%;
-  background-color: #15372c;
+  background-color: #A4DDCE;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
+}
+
+#sixth-main-div:hover {
+  background-color: #15372c;
+  border: 1px solid #15372c;
 }
 
 #sixth-main-div > .sixth-text {
   grid-area: sixthtext;
-  border: 1px solid #15372c;
+  /* border: 1px solid #15372c; */
   padding-top: 28%;
   padding-left: 20%;
   padding-right: 15%;
@@ -389,7 +418,7 @@
 
 #sixth-main-div > .sixth-image {
   grid-area: sixthimage;
-  border: 1px solid #15372c;
+  /* border: 1px solid #15372c; */
 }
 
 .sixth-text > .heading {
@@ -419,24 +448,30 @@
   display: grid;
   grid-template: "seventhimage seventhtext";
   grid-template-columns: 50% 50%;
-  border: 1px solid #008561;
+  border: 1px solid #15372c;
   padding-top: 0%;
   padding-bottom: 5%;
-  background-color: #008561;
+  background-color: #15372c;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
+}
+
+#seventh-main-div:hover {
+  border: 1px solid #008561;
+  background-color: #008561;
 }
 
 #seventh-main-div > .seventh-image {
   grid-area: seventhimage;
-  border: 1px solid #008561;
+  /* border: 1px solid #008561; */
   padding-left: 5%;
   padding-right: 5%;
 }
 
 #seventh-main-div > .seventh-text {
   grid-area: seventhtext;
-  border: 1px solid #008561;
+  /* border: 1px solid #008561; */
   padding-top: 23%;
   padding-left: 10%;
   padding-right: 31%;
@@ -469,17 +504,23 @@
   display: grid;
   grid-template: "eighthtext eighthimage";
   grid-template-columns: 50% 50%;
-  border: 1px solid #a4ddce;
+  border: 1px solid #008561;
   padding-top: 0%;
   padding-bottom: 1%;
-  background-color: #a4ddce;
+  background-color: #008561;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
+}
+
+#eighth-main-div:hover {
+  background-color: #a4ddce;
+  border: 1px solid #a4ddce;
 }
 
 #eighth-main-div > .eighth-text {
   grid-area: eighthtext;
-  border: 1px solid #a4ddce;
+  /* border: 1px solid #a4ddce; */
   padding-left: 20%;
   padding-top: 23%;
   padding-right: 20.6%;
@@ -487,7 +528,7 @@
 
 #eighth-main-div > .eighth-image {
   grid-area: eighthimage;
-  border: 1px solid #a4ddce;
+  /* border: 1px solid #a4ddce; */
   padding-right: 5%;
 }
 
@@ -526,6 +567,7 @@
   padding-bottom: 8%;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
 }
 
 #ninth-main-div > .ninth-left-box {
@@ -582,6 +624,7 @@
   padding-bottom: 6%;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
 }
 
 #tenth-main-div > .heading {
@@ -736,6 +779,7 @@
   background-color: #ffffff;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
 }
 
 #eleventh-main-div > .eleventh-text-box {
@@ -787,6 +831,7 @@
   background-color: white;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
 }
 
 #twelth-main-div > .twelth-image-box {
@@ -897,6 +942,7 @@
   background-color: #113228;
   width: 1500px;
   margin: auto;
+  transition: all 0.5s ease;
 }
 
 #thirteen-main-div > .thirteen-text {
@@ -1124,6 +1170,8 @@
 .bg-color {
     background-color: white;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   #first-main-div {
