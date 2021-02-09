@@ -12,7 +12,7 @@ Bhargavi (sm2_043)
 ## PAGES DESIGNED:
 * Landing page(home page)
 * Product page
-* About us & Events page
+* About us & Mission page
 * Community page
 
 ## INTRODUCTION:
